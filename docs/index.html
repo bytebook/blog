@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    ul,
+    li {
+      list-style: none;
+    }
+
+    body {}
+
+    h3 {
+      margin: 15px 0;
+    }
+
+    .container {
+      margin: 0 auto;
+      max-width: 720px;
+      padding: 15px;
+    }
+
+    .link-list {}
+
+    .link-item {
+      line-height: 2;
+    }
+
+    .qr-list {
+      display: flex;
+      margin: 0 -10px;
+    }
+
+    .qr-item {
+      width: 20px;
+      flex-grow: 1;
+      flex-shrink: 1;
+      padding: 10px;
+    }
+
+    .qr-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h3>一些链接</h3>
+    <ul class="link-list">
+      <li class="link-item"><a href="https://juejin.im/user/593a44ad8d6d810058628358/posts">掘金主页</a></li>
+      <li class="link-item"><a href="https://blog.adebibi.com">我的博客</a></li>
+      <li class="link-item"><a href="http://md.adebibi.com">markdown for 微信</a></li>
+    </ul>
+    <h3>微信扫码关注，还有很多。。。</h3>
+    <ul class="qr-list">
+      <li class="qr-item"><img src="http://qiniu.adebibi.com/qrcode-web.jpg" alt=""></li>
+      <li class="qr-item"><img src="http://qiniu.adebibi.com/webook-wx-mini.jpg" alt=""></li>
+      <li class="qr-item"><img src="http://qiniu.adebibi.com/qrcode-zan.jpeg" alt=""></li>
+    </ul>
+  </div>
+</body>
+
+</html>
